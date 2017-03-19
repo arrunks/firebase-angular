@@ -40,7 +40,8 @@ module.exports = {
 	  },
     { test: /\.html$/,
       exclude: path.resolve(__dirname, 'src/index.html'),
-       loader: "ngtemplate-loader?relativeTo=" + __dirname + "!html-loader" }
+       loader: "ngtemplate-loader?relativeTo=" + __dirname + "!html-loader"
+     }
   	]
   },
   plugins:[
